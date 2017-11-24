@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Fish Bash Sound.mp3">
+   </FileRef>
+   <FileRef
+      location = "group:Fish Caught.mp3">
+   </FileRef>
+   <FileRef
+      location = "group:Fish Off Sound.mp3">
+   </FileRef>
+   <FileRef
+      location = "group:Fishing Ambience Sound.mp3">
+   </FileRef>
+   <FileRef
+      location = "group:Game Over Sound.mp3">
+   </FileRef>
+   <FileRef
+      location = "group:Reel Start Sound.mp3">
+   </FileRef>
+   <FileRef
+      location = "group:Reel Tick Sound.mp3">
+   </FileRef>
+   <FileRef
+      location = "group:Yum Fish Sound.mp3">
+   </FileRef>
+   <FileRef
+      location = "group:Zombie Sound.mp3">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

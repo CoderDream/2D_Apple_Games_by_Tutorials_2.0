@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="13189.4" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="13049.2"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Zombie_Piranhas_watchOS" customModuleProvider="target">
+                    <items>
+                        <spriteKitScene alignment="left" id="ARY-87-yzO">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="hgA-Eh-jmO">
+                                    <connections>
+                                        <action selector="didTap:" destination="AgC-eL-Hgc" id="MWt-zt-0iT"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                                <swipeGestureRecognizer direction="4" id="u6R-zB-dk1">
+                                    <connections>
+                                        <action selector="didSwipe:" destination="AgC-eL-Hgc" id="P9U-em-uFJ"/>
+                                    </connections>
+                                </swipeGestureRecognizer>
+                            </gestureRecognizers>
+                        </spriteKitScene>
+                    </items>
+                    <connections>
+                        <outlet property="skInterface" destination="ARY-87-yzO" id="U6w-Od-uXj"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
